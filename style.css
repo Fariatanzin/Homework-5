@@ -1,0 +1,77 @@
+/*=========Common css start========*/
+
+/* *{
+    margin=0;
+    padding=0;
+    outline=0;
+    box-sizinf:border-box;
+} */
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*==========Common css end==========*/
+nav{
+    margin: 40px;
+    }
+   nav ul li{
+        display: inline-block;
+        position: relative;
+    }
+   nav ul li a{
+          font-size: 30px;
+          font-family: sans-serif;
+          padding:10px 30px;
+          display: inline-block;
+          color:black;
+          text-transform: capitalize;
+          transition:.3;
+
+    }
+
+   nav ul li a:hover{
+        background-color: red;
+    }
+    nav ul li ul{
+            display: none;
+            position: absolute;
+            width:fit-content;
+            left: 0;
+            background-color:orange;
+            top:100%;
+    }
+    nav ul li:hover ul{
+        display: block;
+    }
+    
+    nav ul li ul li{
+        display: block;
+    }
+    nav ul li ul li a{
+        display: block;
+    }
+    nav img{
+        width: 80px;
+        cursor: pointer;
+    }
+
+    p{
+        font-size: 20px;
+        color: #ffffff;
+        text-align: justify;
+        text-align-last: center;
+        line-height: 1.5;
+        text-transform: capitalize;
+      background-color:black;
+      }
+      
+      p::first-letter{
+                   font-size: 40px;
+                   color: #8C001A;
+      }
+     
+      button{
+        background-color:red;
+      }
